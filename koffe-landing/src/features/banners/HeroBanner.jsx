@@ -33,7 +33,7 @@ export default function HeroBanner() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Button href={contact.whatsappLink} external variant="primary">
-              Quero testar grátis <ArrowRight className="w-4 h-4" />
+              Quero testar <ArrowRight className="w-4 h-4" />
             </Button>
             <Button href="#beneficios" variant="outline">
               Ver como funciona

@@ -9,7 +9,7 @@ export default function CtaBanner() {
     <section className="bg-[#1a1714] py-16 md:py-24">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <Badge className="bg-[#b89b6e] text-[#1a1714]">
-          <Coffee className="w-3.5 h-3.5" /> Gratuito, sem pegadinha
+          <Coffee className="w-3.5 h-3.5" /> Simples, rápido e fácil
         </Badge>
         <h2
           className="mt-5 text-3xl md:text-4xl text-[#ede8e0]"
@@ -18,7 +18,7 @@ export default function CtaBanner() {
           Sua barbearia mais leve, hoje.
         </h2>
         <p className="mt-4 text-[#8c8580]" style={textStyles.body}>
-          O período de teste é 100% gratuito. Sem cartão, sem compromisso.
+          O período de teste é 100% gratuito.
         </p>
         <Button
           href={contact.whatsappLink}

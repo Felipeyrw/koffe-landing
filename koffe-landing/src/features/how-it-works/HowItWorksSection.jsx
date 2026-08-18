@@ -24,12 +24,11 @@ export default function HowItWorksSection() {
     <section className="bg-[#fdfaf5] py-20 md:py-28">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-xl mx-auto text-center">
-          <Badge className="bg-[#f5f0e6] text-[#8a7454]">Teste gratuito</Badge>
           <h2
             className="mt-4 text-3xl md:text-4xl text-[#1a1714]"
             style={textStyles.display}
           >
-            Três passos. Zero custo.
+            Três passos.
           </h2>
         </div>
         <div className="mt-14 grid md:grid-cols-3 gap-8">

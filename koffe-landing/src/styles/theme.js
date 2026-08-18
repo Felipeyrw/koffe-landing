@@ -13,9 +13,9 @@ export const colors = {
 };
 
 export const fonts = {
-  display: "'Syne', sans-serif",
-  body: "'DM Sans', sans-serif",
-  mono: "'JetBrains Mono', monospace",
+  display: "'DM Serif Display', serif",
+  body: "'Nunito Sans', sans-serif",
+  mono: "'Space Grotesk', sans-serif",
 };
 
 const WHATSAPP_NUMBER = "5513991747596";

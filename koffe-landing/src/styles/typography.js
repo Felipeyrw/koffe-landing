@@ -3,12 +3,12 @@ import { fonts } from "./theme";
 export const textStyles = {
   display: {
     fontFamily: fonts.display,
-    fontWeight: 800,
+    fontWeight: 400,
   },
   body: {
     fontFamily: fonts.body,
   },
-  mono: {
-    fontFamily: fonts.mono,
+  arial: {
+    fontFamily: fonts.arial,
   },
 };

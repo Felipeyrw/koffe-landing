@@ -1,4 +1,4 @@
-import { WifiOff, CalendarDays, Wallet, Users, KeyRound } from "lucide-react";
+import { WifiOff, CalendarDays, Wallet, Users, KeyRound, BadgeDollarSign } from "lucide-react";
 import Badge from "../../components/Badge";
 import { textStyles } from "../../styles/typography";
 
@@ -13,15 +13,20 @@ const benefits = [
     title: "Agenda que não te dá trabalho",
     text: "Dia, semana ou mês, tudo organizado sem você precisar pensar duas vezes.",
   },
+    {
+    icon: BadgeDollarSign,
+    title: "Organize seu negócio",
+    text: "Tenha organização, o que entra e sai aparece de forma simples na tela do seu celular.",
+  },
   {
     icon: Wallet,
-    title: "Financeiro sem planilha",
+    title: "Financeiro ",
     text: "Entradas, saídas e comissão calculadas na hora. Fecha o dia em segundos.",
   },
   {
     icon: Users,
     title: "Equipe em ordem",
-    text: "Cada barbeiro com seu próprio acesso, sem confusão de quem fez o quê.",
+    text: "Cada barbeiro com seu próprio acesso, o dono administra os barbeiros, sem confusão de quem fez o quê.",
   },
   {
     icon: KeyRound,
